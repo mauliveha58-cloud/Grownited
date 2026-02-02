@@ -1,0 +1,49 @@
+/* ===== Main Section ===== */
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 4%;
+  gap: 15px;
+}
+
+/* ===== Image Section ===== */
+.img {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 394px;
+  width: 700px;
+  overflow: hidden;
+  object-fit: cover;
+  border: 3px solid rgba(230, 57, 70, 0.6);
+
+
+}
+
+
+
+/* ===== Content Section ===== */
+
+.contain h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #f5f7fa
+}
+
+.contain p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #aab0c0;
+  max-width: 520px;
+}
+
+
+
+
+
+
+
+

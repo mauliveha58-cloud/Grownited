@@ -5,6 +5,9 @@
   justify-content: space-between;
   padding: 50px 4%;
   gap: 15px;
+  background-color: #0f0f0f;
+  height: calc(100vh - 100px);
+
 }
 
 /* ===== Image Section ===== */
@@ -39,11 +42,3 @@
   color: #aab0c0;
   max-width: 520px;
 }
-
-
-
-
-
-
-
-

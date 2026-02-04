@@ -37,12 +37,7 @@ function Navbar() {
                 <Link className="nav-link" to="/originals">
                  Netflix Originals
                 </Link>
-              </li>
-               <li className="nav-item">
-                <Link className="nav-link" to="/Comedymovie">
-                 Comedy Movies
-                </Link>
-              </li>
+              </li>        
               <li className="nav-item">
                 <Link className="nav-link" to="/series">
                     Series

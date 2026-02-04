@@ -9,8 +9,9 @@ import Navbar from "./components/Navbar";
 import Netflixhome from "./components/Netflixhome";
 import NetflixMovie from "./components/NetflixMovie";
 import Netflixorignal from "./components/Netflixorignal";
-import Comedymovie from "./components/Comedymovie";
 import Netflixseries from "./components/Netflixseries";
+import Netflixeroorpage from "./components/Netflixeroorpage";
+import Netflixwatch from "./components/Netflixwatch";
 
 function App() {
   return (
@@ -21,9 +22,10 @@ function App() {
          <Route path="/" element={<Netflix/>}> </Route>
            <Route path="/netflixhome" element={<Netflixhome />}></Route>
            <Route path="/movie" element={<NetflixMovie/>}></Route> 
-           <Route path="/Comedymovie" element={<Comedymovie/>}></Route> 
            <Route path="/originals" element={<Netflixorignal/>}></Route> 
            <Route path="/series" element={<Netflixseries/>}></Route> 
+           <Route path="/watch/:name" element={<Netflixwatch/>}></Route>
+           <Route path="/*" element={<Netflixeroorpage/>}></Route>
       </Routes>
     </div>
   );

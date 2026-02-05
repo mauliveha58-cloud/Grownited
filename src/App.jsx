@@ -12,11 +12,15 @@ import Netflixorignal from "./components/Netflixorignal";
 import Netflixseries from "./components/Netflixseries";
 import Netflixeroorpage from "./components/Netflixeroorpage";
 import Netflixwatch from "./components/Netflixwatch";
+import Teamerror from "./components/Teamerror";
+import Team from "./components/Team";
+import Teamdetails from "./components/Teamdetails";
+
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      {/* <Navbar> </Navbar>
 
       <Routes>
          <Route path="/" element={<Netflix/>}> </Route>
@@ -26,7 +30,15 @@ function App() {
            <Route path="/series" element={<Netflixseries/>}></Route> 
            <Route path="/watch/:name" element={<Netflixwatch/>}></Route>
            <Route path="/*" element={<Netflixeroorpage/>}></Route>
-      </Routes>
+      </Routes> */}
+  
+     <Routes>
+       <Route path="/" element={<Team/>}></Route>
+       <Route path="/teamdetail/:name/:des" element={<Teamdetails/>}></Route>
+       <Route path="/*" element={<Teamerror/>}></Route>
+       
+     </Routes>
+       
     </div>
   );
 }

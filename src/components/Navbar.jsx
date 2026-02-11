@@ -48,6 +48,11 @@ function Navbar() {
                     Usestate
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/props">
+                    Props
+                </Link>
+              </li>
                
               
             </ul>

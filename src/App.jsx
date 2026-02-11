@@ -17,6 +17,7 @@ import Team from "./components/Team";
 import Teamdetails from "./components/Teamdetails";
 import Usestatedemo1 from "./components/Usestatedemo1";
 import Props from "./components/Props";
+import Inputdemo1 from "./components/input/Inputdemo1";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
            <Route path="/watch/:name" element={<Netflixwatch/>}></Route>
            <Route path="/usestate" element={<Usestatedemo1/>}></Route>
            <Route path="/props" element={<Props/>}></Route>
+           <Route path="/inputdemo" element={<Inputdemo1/>}></Route>
            <Route path="/*" element={<Netflixeroorpage/>}></Route>
       </Routes>
   

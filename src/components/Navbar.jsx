@@ -53,6 +53,11 @@ function Navbar() {
                     Props
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/inputdemo">
+                    inputdemo1
+                </Link>
+              </li>
                
               
             </ul>

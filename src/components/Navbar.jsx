@@ -43,6 +43,11 @@ function Navbar() {
                     Series
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/usestate">
+                    Usestate
+                </Link>
+              </li>
                
               
             </ul>

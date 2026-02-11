@@ -15,12 +15,13 @@ import Netflixwatch from "./components/Netflixwatch";
 import Teamerror from "./components/Teamerror";
 import Team from "./components/Team";
 import Teamdetails from "./components/Teamdetails";
+import Usestatedemo1 from "./components/Usestatedemo1";
 
 
 function App() {
   return (
     <div>
-      {/* <Navbar> </Navbar>
+      <Navbar> </Navbar>
 
       <Routes>
          <Route path="/" element={<Netflix/>}> </Route>
@@ -29,15 +30,16 @@ function App() {
            <Route path="/originals" element={<Netflixorignal/>}></Route> 
            <Route path="/series" element={<Netflixseries/>}></Route> 
            <Route path="/watch/:name" element={<Netflixwatch/>}></Route>
+           <Route path="/usestate" element={<Usestatedemo1/>}></Route>
            <Route path="/*" element={<Netflixeroorpage/>}></Route>
-      </Routes> */}
+      </Routes>
   
-     <Routes>
+     {/* <Routes>
        <Route path="/" element={<Team/>}></Route>
        <Route path="/teamdetail/:name/:des" element={<Teamdetails/>}></Route>
        <Route path="/*" element={<Teamerror/>}></Route>
        
-     </Routes>
+     </Routes> */}
        
     </div>
   );

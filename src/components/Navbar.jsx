@@ -58,6 +58,11 @@ function Navbar() {
                     inputdemo1
                 </Link>
               </li>
+               <li className="nav-item">
+                <Link className="nav-link" to="/hookform">
+                  Hookform
+                </Link>
+              </li>
                
               
             </ul>

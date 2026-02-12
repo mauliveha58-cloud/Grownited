@@ -18,6 +18,7 @@ import Teamdetails from "./components/Teamdetails";
 import Usestatedemo1 from "./components/Usestatedemo1";
 import Props from "./components/Props";
 import Inputdemo1 from "./components/input/Inputdemo1";
+import Hookform from "./components/input/Hookform";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
            <Route path="/usestate" element={<Usestatedemo1/>}></Route>
            <Route path="/props" element={<Props/>}></Route>
            <Route path="/inputdemo" element={<Inputdemo1/>}></Route>
+           <Route path="/hookform" element={<Hookform/>}></Route>
            <Route path="/*" element={<Netflixeroorpage/>}></Route>
       </Routes>
   

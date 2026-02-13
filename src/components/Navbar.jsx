@@ -63,6 +63,11 @@ function Navbar() {
                   Hookform
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/validation">
+                 Validation
+                </Link>
+              </li>
                
               
             </ul>

@@ -20,6 +20,9 @@ import Props from "./components/Props";
 import Inputdemo1 from "./components/input/Inputdemo1";
 import Hookform from "./components/input/Hookform";
 import Validation from "./components/input/Validation";
+import Validation2 from "./components/input/Validation2";
+import Passvalidation from "./components/input/Passvalidation";
+
 
 
 function App() {
@@ -39,6 +42,8 @@ function App() {
            <Route path="/inputdemo" element={<Inputdemo1/>}></Route>
            <Route path="/hookform" element={<Hookform/>}></Route>
            <Route path="/validation" element={<Validation/>}></Route>
+           <Route path="/validation2" element={<Validation2/>}></Route>
+           <Route path="/Passvalidation" element={<Passvalidation/>}></Route> 
            <Route path="/*" element={<Netflixeroorpage/>}></Route>
       </Routes>
   

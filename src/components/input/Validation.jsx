@@ -1,6 +1,8 @@
 import React from 'react'
 import { useForm } from 'react-hook-form';
 
+
+
 function Validation() {
    const{register,handleSubmit,formState:{errors}}=useForm();
 
@@ -66,7 +68,7 @@ function Validation() {
 
         <div>
           <label>Email</label>
-          <input type="password"{...register("email",{required:{value:true,message:"please enter email*"}})}></input>
+          <input type="email"{...register("email",{required:{value:true,message:"please enter email*"}})}></input>
           {errors.email?.message}
         </div>
 
@@ -74,6 +76,7 @@ function Validation() {
           <input type="submit" value="submit"  ></input>
         </div>
       </form>
+
     </div>
   )
 } 

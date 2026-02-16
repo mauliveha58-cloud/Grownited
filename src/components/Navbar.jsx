@@ -68,6 +68,16 @@ function Navbar() {
                  Validation
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/validation2">
+                 Validation2
+                </Link>
+              </li>
+               <li className="nav-item">
+                <Link className="nav-link" to="/Passvalidation">
+                  Passvalidation
+                </Link>
+              </li>
                
               
             </ul>

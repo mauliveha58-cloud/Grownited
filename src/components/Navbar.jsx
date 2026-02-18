@@ -28,7 +28,7 @@ function Navbar() {
                  NEtflix Home
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/movie">
                  Movie
                 </Link>
@@ -52,7 +52,7 @@ function Navbar() {
                 <Link className="nav-link" to="/props">
                     Props
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/inputdemo">
                     inputdemo1
@@ -78,6 +78,23 @@ function Navbar() {
                   Passvalidation
                 </Link>
               </li>
+               <li className="nav-item">
+                <Link className="nav-link" to="/apidemo">
+                  apidemo
+                </Link>
+              </li>
+               <li className="nav-item">
+                <Link className="nav-link" to="/apidemo2">
+                  apidemo2
+                </Link>
+              </li>
+               <li className="nav-item">
+                <Link className="nav-link" to="/apidemo3">
+                  apidemo3
+                </Link>
+              </li>
+              
+              
                
               
             </ul>

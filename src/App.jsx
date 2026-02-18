@@ -22,6 +22,10 @@ import Hookform from "./components/input/Hookform";
 import Validation from "./components/input/Validation";
 import Validation2 from "./components/input/Validation2";
 import Passvalidation from "./components/input/Passvalidation";
+import Apidemo from "./components/api/Apidemo";
+import Apidemo2 from "./components/api/Apidemo2";
+import Apidemo3 from "./components/api/Apidemo3";
+
 
 
 
@@ -44,6 +48,9 @@ function App() {
            <Route path="/validation" element={<Validation/>}></Route>
            <Route path="/validation2" element={<Validation2/>}></Route>
            <Route path="/Passvalidation" element={<Passvalidation/>}></Route> 
+           <Route path="/apidemo" element={<Apidemo/>}></Route>
+           <Route path="/apidemo2" element={<Apidemo2/>}></Route>
+            <Route path="/apidemo3" element={<Apidemo3/>}></Route>
            <Route path="/*" element={<Netflixeroorpage/>}></Route>
       </Routes>
   

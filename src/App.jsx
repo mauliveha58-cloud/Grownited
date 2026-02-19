@@ -25,6 +25,11 @@ import Passvalidation from "./components/input/Passvalidation";
 import Apidemo from "./components/api/Apidemo";
 import Apidemo2 from "./components/api/Apidemo2";
 import Apidemo3 from "./components/api/Apidemo3";
+import Getapi from "./components/api/Getapi";
+import Getapi2 from "./components/api/Getapi2";
+import Postapi from "./components/api/Postapi";
+import Postusingform from "./components/api/Postusingform";
+
 
 
 
@@ -51,6 +56,10 @@ function App() {
            <Route path="/apidemo" element={<Apidemo/>}></Route>
            <Route path="/apidemo2" element={<Apidemo2/>}></Route>
             <Route path="/apidemo3" element={<Apidemo3/>}></Route>
+            <Route path="/Getapi" element={<Getapi/>}></Route>
+            <Route path="/getapi2" element={<Getapi2/>}></Route>
+            <Route path="/post" element={<Postapi/>}></Route>
+            <Route path="/postuseform" element={<Postusingform/>}></Route>
            <Route path="/*" element={<Netflixeroorpage/>}></Route>
       </Routes>
   

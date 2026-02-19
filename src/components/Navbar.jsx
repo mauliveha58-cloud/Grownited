@@ -93,6 +93,26 @@ function Navbar() {
                   apidemo3
                 </Link>
               </li>
+               <li className="nav-item">
+                <Link className="nav-link" to="/Getapi">
+                  getapi
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Getapi2">
+                  getapi2
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/post">
+                  post
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/postuseform">
+                  postusingform
+                </Link>
+              </li>
               
               
                
